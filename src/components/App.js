@@ -5,10 +5,10 @@ import './../styles/App.css';
 const generateTasks = () => {
   const tasks = [];
   for (let i = 0; i < 25; i++) {
-    tasks.push({ id: i, title: `Task ${i + 1}`, completed: false });
+    tasks.push({ id: i, title: `Todo ${i + 1}`, completed: false });
   }
   for (let i = 25; i < 50; i++) {
-    tasks.push({ id: i, title: `Task ${i + 1}`, completed: true });
+    tasks.push({ id: i, title: `Todo ${i + 1}`, completed: true });
   }
   return tasks;
 };
